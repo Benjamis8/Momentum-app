@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Momentum App</title>
+        <link href="stylemomentum.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+
+<body> 
+        <div id="taskbtn">
+           <h2 class="textTask">Task:</h2>
+           <input type="text" id="taskInput" placeholder="Add new task"  />
+           <button id="addButton">+</button>
+           <button id="clearButton">Clear</button>
+           <div id="taskList"></div>
+        </div>
+
+       <div class="bg">
+         <div class="bg-content">
+            <h1 class="clock">12:12</h1>
+            <h2 class="main"> Good Morning, _____________  </h2>
+            <input type="text" id="name" placeholder ="Enter name here">
+            <button id="editbutton">edit</button>
+         </div>
+        </div>
+
+        <div id="focusAdd">
+            <h2 class="focusText">What Is The Main Focus Today?</h2>
+            <input type="text" id="focus" placeholder="Add Focus" />
+            <button id="EnterAdd">+</button>
+            <p class="focusText"></p>
+        </div>
+
+    <div id="quoteBtn">
+        <p id="randomQuote"></p>
+        <input type="text" id="quoteInput" placeholder="Add New Quote" />
+        <button id="AddQuoteButton">+</button>
+    </div>
+       
+
+       <script src="momentum.js"></script>
+</body>
+</html>
